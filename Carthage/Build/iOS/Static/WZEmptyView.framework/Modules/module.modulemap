@@ -1,0 +1,11 @@
+framework module WZEmptyView {
+  umbrella header "WZEmptyView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module WZEmptyView.Swift {
+    header "WZEmptyView-Swift.h"
+    requires objc
+}

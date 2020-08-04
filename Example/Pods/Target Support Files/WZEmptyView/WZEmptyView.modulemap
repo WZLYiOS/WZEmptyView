@@ -1,0 +1,6 @@
+framework module WZEmptyView {
+  umbrella header "WZEmptyView-umbrella.h"
+
+  export *
+  module * { export * }
+}

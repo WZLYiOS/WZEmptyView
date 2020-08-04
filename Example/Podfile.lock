@@ -1,0 +1,18 @@
+PODS:
+  - WZEmptyView (1.0.0):
+    - WZEmptyView/Source (= 1.0.0)
+  - WZEmptyView/Source (1.0.0)
+
+DEPENDENCIES:
+  - WZEmptyView (from `../`)
+
+EXTERNAL SOURCES:
+  WZEmptyView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WZEmptyView: a6e9e4c53d4d95bde4b171438e40d487a0f8c343
+
+PODFILE CHECKSUM: 80c0afac80d5ffabce6a4c4ce0ab03c976e585ce
+
+COCOAPODS: 1.8.4

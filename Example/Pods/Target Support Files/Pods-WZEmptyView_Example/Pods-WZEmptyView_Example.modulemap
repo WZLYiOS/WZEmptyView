@@ -1,0 +1,6 @@
+framework module Pods_WZEmptyView_Example {
+  umbrella header "Pods-WZEmptyView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
