@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WZEmptyView'
-  s.version          = '1.1.6'
+  s.version          = '1.1.7'
   s.summary          = '我主良缘空视图加载View'
   s.homepage         = 'https://github.com/WZLYiOS/WZEmptyView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
