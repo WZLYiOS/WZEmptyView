@@ -163,7 +163,6 @@ public class EmptyView: UIView {
         didSet {
             actionButton.layer.cornerRadius = actionButtonCornerRadius
             actionButton.layer.masksToBounds = true
-            setNeedsLayout()
         }
     }
     
@@ -171,10 +170,14 @@ public class EmptyView: UIView {
     @objc public dynamic var actionButtonBorderWidth: CGFloat = 0 {
         didSet {
             actionButton.layer.borderWidth = actionButtonBorderWidth
-            setNeedsLayout()
         }
     }
     
+    @objc public dynamic var actionButtonBorderColor: UIColor = UIColor.clear {
+        didSet {
+            actionButton.layer.borderColor = actionButtonBorderColor.cgColor
+        }
+    }
     
     // 颜色
     /// 默认为(93, 100, 110)
@@ -399,6 +402,11 @@ public class EmptyView: UIView {
         actionButton.addTarget(target, action: action, for: .touchUpInside)
     }
     
+    /// 按钮是否隐藏
+    /// - Parameter isHidden: 
+    public func setAction(isHidden: Bool) {
+        actionButton.isHidden = isHidden
+    }
     
     override open func layoutSubviews() {
         super.layoutSubviews()
