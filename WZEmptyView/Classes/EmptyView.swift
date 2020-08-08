@@ -8,8 +8,7 @@
 
 import UIKit
 
-
-/// MARK - 空视图
+/// MARK - 空视图(布局顺序从上到下依次为：iconImageView, loadingView, titleLabel, detailTextLabel, actionButton)
 public class EmptyView: UIView {
     
     /// 图标视图
@@ -158,6 +157,24 @@ public class EmptyView: UIView {
             setNeedsLayout()
         }
     }
+    
+    /// 圆角
+    @objc public dynamic var actionButtonCornerRadius: CGFloat = 0 {
+        didSet {
+            actionButton.layer.cornerRadius = actionButtonCornerRadius
+            actionButton.layer.masksToBounds = true
+            setNeedsLayout()
+        }
+    }
+    
+    /// 圆边宽度
+    @objc public dynamic var actionButtonBorderWidth: CGFloat = 0 {
+        didSet {
+            actionButton.layer.borderWidth = actionButtonBorderWidth
+            setNeedsLayout()
+        }
+    }
+    
     
     // 颜色
     /// 默认为(93, 100, 110)
@@ -373,6 +390,15 @@ public class EmptyView: UIView {
         actionButton.isHidden = title == nil
         setNeedsLayout()
     }
+
+    /// 设置按钮
+    /// - Parameters:
+    ///   - target:
+    ///   - action:
+    public func setActionButton(target: Any?, action: Selector){
+        actionButton.addTarget(target, action: action, for: .touchUpInside)
+    }
+    
     
     override open func layoutSubviews() {
         super.layoutSubviews()
