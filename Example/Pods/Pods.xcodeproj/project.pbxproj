@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		07467F733D1D99678EB2B12B03D45C33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		08A197BD38AE9079DE2C69F6D78D7B55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		11037B315AD390777DBDBC7B8BD52369 /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A43E19755AB476A567CD50022191D4E /* Help.swift */; };
+		11037B315AD390777DBDBC7B8BD52369 /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD459FDD3BF8E0CABC273147B91316C /* Help.swift */; };
 		2886BEF96779DCCF22D35708BA169A4D /* Pods-WZEmptyView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F36FEB50FC008BF61418310D83EB52D0 /* Pods-WZEmptyView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AD3EAB561E0C483894E42D55FB1A216 /* WZEmptyView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8235FA526051BA7FC0E65AA4CB830A97 /* WZEmptyView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AD3EAB561E0C483894E42D55FB1A216 /* WZEmptyView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 578741DC41E34CDAACCFE9C7EAEBB4EA /* WZEmptyView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92DBC7F96E66C374B96AD83EBC50304F /* Pods-WZEmptyView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2984D4310E8F2815347898ED84B93D68 /* Pods-WZEmptyView_Example-dummy.m */; };
-		A8D5B9C6F96798C0CE282FBC49954816 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D09A174106BB9C1A1F4976FE937F41 /* EmptyView.swift */; };
-		ADA2517BB02C2C01A8DEE86D05F595D2 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07E1F2576E425C9681BF9EDC4412283 /* Indicator.swift */; };
-		C7520111A3E452DF402B585620D94070 /* WZEmptyView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB7A169E23026BC68690E83B8EB2C3E /* WZEmptyView-dummy.m */; };
+		A8D5B9C6F96798C0CE282FBC49954816 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B118FDC7CDB3F9E3CA0F266D123778 /* EmptyView.swift */; };
+		ADA2517BB02C2C01A8DEE86D05F595D2 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA00AC1D2029013BF45935B91FBCC435 /* Indicator.swift */; };
+		C7520111A3E452DF402B585620D94070 /* WZEmptyView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B225C07A796C9AC3F3BCA6F5C9A0C6 /* WZEmptyView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,30 +29,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02178069B3F919DB774BFE89733A10F3 /* WZEmptyView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZEmptyView-Info.plist"; sourceTree = "<group>"; };
-		057274821B94A9AF072009001E586F0B /* WZEmptyView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZEmptyView.xcconfig; sourceTree = "<group>"; };
+		13D667FF621D56C2E35173243522FBB3 /* WZEmptyView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZEmptyView.debug.xcconfig; sourceTree = "<group>"; };
 		1DBC4AF22695AC53E3651A097589D667 /* Pods-WZEmptyView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZEmptyView_Example.modulemap"; sourceTree = "<group>"; };
+		228B2E4A150F0A53DA86422EBFA849EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2984D4310E8F2815347898ED84B93D68 /* Pods-WZEmptyView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZEmptyView_Example-dummy.m"; sourceTree = "<group>"; };
 		2BAAA073C18EB65DCC4B5A07592238B4 /* Pods-WZEmptyView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZEmptyView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34B0B6B448E5101E8C062FDC9139DB69 /* WZEmptyView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZEmptyView-prefix.pch"; sourceTree = "<group>"; };
+		35B225C07A796C9AC3F3BCA6F5C9A0C6 /* WZEmptyView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZEmptyView-dummy.m"; sourceTree = "<group>"; };
 		37C61F9F9FA7A4A1B87B8404A9B39C25 /* Pods-WZEmptyView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZEmptyView_Example-Info.plist"; sourceTree = "<group>"; };
-		3DB7A169E23026BC68690E83B8EB2C3E /* WZEmptyView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZEmptyView-dummy.m"; sourceTree = "<group>"; };
+		3C95B91BE3F57D4A2D93DED51BD65390 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4B39EC14F50FA6DE3F9FCEC07A7B213D /* Pods-WZEmptyView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZEmptyView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5A43E19755AB476A567CD50022191D4E /* Help.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Help.swift; path = WZEmptyView/Classes/Help.swift; sourceTree = "<group>"; };
+		578741DC41E34CDAACCFE9C7EAEBB4EA /* WZEmptyView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZEmptyView-umbrella.h"; sourceTree = "<group>"; };
 		64AF8A89343D9D94C67220A955F809E8 /* Pods-WZEmptyView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZEmptyView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8235FA526051BA7FC0E65AA4CB830A97 /* WZEmptyView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZEmptyView-umbrella.h"; sourceTree = "<group>"; };
+		6F847D58A7815098CD495F9ADAD69A20 /* WZEmptyView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZEmptyView.modulemap; sourceTree = "<group>"; };
+		83B118FDC7CDB3F9E3CA0F266D123778 /* EmptyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyView.swift; path = WZEmptyView/Classes/EmptyView.swift; sourceTree = "<group>"; };
 		85EEF8455BA5532737B0FA0D86A0B835 /* Pods-WZEmptyView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZEmptyView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		996D5A82976A8445919401BF340646A5 /* WZEmptyView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZEmptyView.modulemap; sourceTree = "<group>"; };
+		9B1F6F2BF24CD2129161CC00328450EF /* WZEmptyView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZEmptyView-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B5B203961A1CA17936DCBA6D560D1A83 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		DF5B30E4FD4F10F22CC7158A85D0EBC0 /* WZEmptyView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WZEmptyView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E07E1F2576E425C9681BF9EDC4412283 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = WZEmptyView/Classes/Indicator.swift; sourceTree = "<group>"; };
+		BCD459FDD3BF8E0CABC273147B91316C /* Help.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Help.swift; path = WZEmptyView/Classes/Help.swift; sourceTree = "<group>"; };
 		E48E5EF200007BDE02DE48C7CD2419B0 /* WZEmptyView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZEmptyView.framework; path = WZEmptyView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0D09A174106BB9C1A1F4976FE937F41 /* EmptyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyView.swift; path = WZEmptyView/Classes/EmptyView.swift; sourceTree = "<group>"; };
-		F29D1EBD8D9F2BBD57A3A53DC4E3E067 /* WZEmptyView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZEmptyView-prefix.pch"; sourceTree = "<group>"; };
+		EA00AC1D2029013BF45935B91FBCC435 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = WZEmptyView/Classes/Indicator.swift; sourceTree = "<group>"; };
 		F36FEB50FC008BF61418310D83EB52D0 /* Pods-WZEmptyView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZEmptyView_Example-umbrella.h"; sourceTree = "<group>"; };
-		F500CDFA80B7223C9FF6ADF538B11CAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F46063E21AABB5D0CF60ED73B7C1F95B /* WZEmptyView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZEmptyView.release.xcconfig; sourceTree = "<group>"; };
 		F59D138251048204EED3CD3F8CA9CD12 /* Pods_WZEmptyView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZEmptyView_Example.framework; path = "Pods-WZEmptyView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5BE3EB03F6E1DADD8DF951D33E36E1F /* WZEmptyView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WZEmptyView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,47 +76,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0F2B8D6B997AF3FBE028C8DDF0288D50 /* WZEmptyView */ = {
-			isa = PBXGroup;
-			children = (
-				9BF73E97B5CED58B72AA2891FABE3CB9 /* Pod */,
-				1131874E701D9466CD958937F8D10578 /* Source */,
-				3FBF61A4E6D422824097D566CB40E519 /* Support Files */,
-			);
-			name = WZEmptyView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		1131874E701D9466CD958937F8D10578 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				F0D09A174106BB9C1A1F4976FE937F41 /* EmptyView.swift */,
-				5A43E19755AB476A567CD50022191D4E /* Help.swift */,
-				E07E1F2576E425C9681BF9EDC4412283 /* Indicator.swift */,
-			);
-			name = Source;
-			sourceTree = "<group>";
-		};
 		1779D2FCFDDF2F02ECE4FE1610095A96 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0F2B8D6B997AF3FBE028C8DDF0288D50 /* WZEmptyView */,
+				FE1B6CA9E950C1CABCBFCDF7F86EBEA1 /* WZEmptyView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3FBF61A4E6D422824097D566CB40E519 /* Support Files */ = {
+		6987379CE09DDD12F11FAD7D04A0B094 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				996D5A82976A8445919401BF340646A5 /* WZEmptyView.modulemap */,
-				057274821B94A9AF072009001E586F0B /* WZEmptyView.xcconfig */,
-				3DB7A169E23026BC68690E83B8EB2C3E /* WZEmptyView-dummy.m */,
-				02178069B3F919DB774BFE89733A10F3 /* WZEmptyView-Info.plist */,
-				F29D1EBD8D9F2BBD57A3A53DC4E3E067 /* WZEmptyView-prefix.pch */,
-				8235FA526051BA7FC0E65AA4CB830A97 /* WZEmptyView-umbrella.h */,
+				83B118FDC7CDB3F9E3CA0F266D123778 /* EmptyView.swift */,
+				BCD459FDD3BF8E0CABC273147B91316C /* Help.swift */,
+				EA00AC1D2029013BF45935B91FBCC435 /* Indicator.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WZEmptyView";
+			name = Source;
 			sourceTree = "<group>";
 		};
 		79D35B2E548E422279BB1DD607DB21E6 /* Targets Support Files */ = {
@@ -126,12 +102,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9BF73E97B5CED58B72AA2891FABE3CB9 /* Pod */ = {
+		7AA2B7F85AEAAC67449585696E98CD9D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B5B203961A1CA17936DCBA6D560D1A83 /* LICENSE */,
-				F500CDFA80B7223C9FF6ADF538B11CAF /* README.md */,
-				DF5B30E4FD4F10F22CC7158A85D0EBC0 /* WZEmptyView.podspec */,
+				6F847D58A7815098CD495F9ADAD69A20 /* WZEmptyView.modulemap */,
+				35B225C07A796C9AC3F3BCA6F5C9A0C6 /* WZEmptyView-dummy.m */,
+				9B1F6F2BF24CD2129161CC00328450EF /* WZEmptyView-Info.plist */,
+				34B0B6B448E5101E8C062FDC9139DB69 /* WZEmptyView-prefix.pch */,
+				578741DC41E34CDAACCFE9C7EAEBB4EA /* WZEmptyView-umbrella.h */,
+				13D667FF621D56C2E35173243522FBB3 /* WZEmptyView.debug.xcconfig */,
+				F46063E21AABB5D0CF60ED73B7C1F95B /* WZEmptyView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WZEmptyView";
+			sourceTree = "<group>";
+		};
+		7FF488C573DF91FB81388460567F6E9E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				228B2E4A150F0A53DA86422EBFA849EE /* LICENSE */,
+				3C95B91BE3F57D4A2D93DED51BD65390 /* README.md */,
+				F5BE3EB03F6E1DADD8DF951D33E36E1F /* WZEmptyView.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -186,6 +177,17 @@
 			);
 			name = "Pods-WZEmptyView_Example";
 			path = "Target Support Files/Pods-WZEmptyView_Example";
+			sourceTree = "<group>";
+		};
+		FE1B6CA9E950C1CABCBFCDF7F86EBEA1 /* WZEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				7FF488C573DF91FB81388460567F6E9E /* Pod */,
+				6987379CE09DDD12F11FAD7D04A0B094 /* Source */,
+				7AA2B7F85AEAAC67449585696E98CD9D /* Support Files */,
+			);
+			name = WZEmptyView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,9 +326,43 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1928769D2B792A582894910D37893E90 /* Debug */ = {
+		3E24F366C961D118C7D6490C6DD6B3CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 057274821B94A9AF072009001E586F0B /* WZEmptyView.xcconfig */;
+			baseConfigurationReference = 2BAAA073C18EB65DCC4B5A07592238B4 /* Pods-WZEmptyView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZEmptyView_Example/Pods-WZEmptyView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZEmptyView_Example/Pods-WZEmptyView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43388D189B5F4D23DF0B02910F1D79A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D667FF621D56C2E35173243522FBB3 /* WZEmptyView.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -356,11 +392,10 @@
 			};
 			name = Debug;
 		};
-		3E24F366C961D118C7D6490C6DD6B3CD /* Release */ = {
+		68782D79E397A87D886FEA85D7CD1025 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BAAA073C18EB65DCC4B5A07592238B4 /* Pods-WZEmptyView_Example.release.xcconfig */;
+			baseConfigurationReference = F46063E21AABB5D0CF60ED73B7C1F95B /* WZEmptyView.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -370,19 +405,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WZEmptyView_Example/Pods-WZEmptyView_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/WZEmptyView/WZEmptyView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZEmptyView/WZEmptyView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WZEmptyView_Example/Pods-WZEmptyView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/WZEmptyView/WZEmptyView.modulemap";
+				PRODUCT_MODULE_NAME = WZEmptyView;
+				PRODUCT_NAME = WZEmptyView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -547,39 +582,6 @@
 			};
 			name = Debug;
 		};
-		EE746A862C8F0CF13BD8DEAAAED4BD30 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 057274821B94A9AF072009001E586F0B /* WZEmptyView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WZEmptyView/WZEmptyView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WZEmptyView/WZEmptyView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/WZEmptyView/WZEmptyView.modulemap";
-				PRODUCT_MODULE_NAME = WZEmptyView;
-				PRODUCT_NAME = WZEmptyView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -604,8 +606,8 @@
 		7A4EDEF9B1D0ADCE7C65F5FD2E33ECDF /* Build configuration list for PBXNativeTarget "WZEmptyView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1928769D2B792A582894910D37893E90 /* Debug */,
-				EE746A862C8F0CF13BD8DEAAAED4BD30 /* Release */,
+				43388D189B5F4D23DF0B02910F1D79A7 /* Debug */,
+				68782D79E397A87D886FEA85D7CD1025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

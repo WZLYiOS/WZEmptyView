@@ -1,7 +1,7 @@
 PODS:
-  - WZEmptyView (1.0.0):
-    - WZEmptyView/Source (= 1.0.0)
-  - WZEmptyView/Source (1.0.0)
+  - WZEmptyView (1.1.8):
+    - WZEmptyView/Source (= 1.1.8)
+  - WZEmptyView/Source (1.1.8)
 
 DEPENDENCIES:
   - WZEmptyView (from `../`)
@@ -11,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WZEmptyView: a6e9e4c53d4d95bde4b171438e40d487a0f8c343
+  WZEmptyView: 7f913c75ff040f136fb9a9413009bc43c6dbbc9f
 
 PODFILE CHECKSUM: 80c0afac80d5ffabce6a4c4ce0ab03c976e585ce
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

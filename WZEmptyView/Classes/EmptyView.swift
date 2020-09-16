@@ -173,6 +173,13 @@ public class EmptyView: UIView {
         }
     }
     
+    /// 设置背景颜色
+    @objc public dynamic var actionButtonBackgroundColor: UIColor = UIColor.white {
+        didSet {
+            actionButton.backgroundColor = actionButtonBackgroundColor
+        }
+    }
+    
     @objc public dynamic var actionButtonBorderColor: UIColor = UIColor.clear {
         didSet {
             actionButton.layer.borderColor = actionButtonBorderColor.cgColor
