@@ -9,7 +9,7 @@
 import UIKit
 
 /// MARK - 空视图(布局顺序从上到下依次为：iconImageView, loadingView, titleLabel, detailTextLabel, actionButton)
-public class EmptyView: UIView {
+open class EmptyView: UIView {
     
     /// 图标视图
     private lazy var iconImageView: UIImageView = {
@@ -362,7 +362,6 @@ public class EmptyView: UIView {
         setNeedsLayout()
     }
     
-    
     /// 设置提示语
     /// - Parameter text: 富文本
     public func setTitleLabelAttributedText(_ text: NSAttributedString?) {
@@ -370,7 +369,6 @@ public class EmptyView: UIView {
         titleLabel.isHidden = text == nil
         setNeedsLayout()
     }
-    
     
     /// 设置详情提示语的文本
     /// - Parameter text: 富文本
@@ -422,5 +420,10 @@ public class EmptyView: UIView {
     
     required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    /// 更新视图
+    open func uploadEmpty(error: Error?) {
+        
     }
 }
