@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WZEmptyView'
-  s.version          = '3.0.1'
+  s.version          = '3.0.2'
   s.summary          = '我主良缘空视图加载View'
   s.homepage         = 'https://github.com/WZLYiOS/WZEmptyView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.static_framework = true
   s.swift_version         = '5.0'
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
   s.default_subspec = 'Source'
   
   
