@@ -215,6 +215,13 @@ open class EmptyView: UIView {
         }
     }
     
+    /// 设置背景颜色
+    @objc public dynamic var actionButtonBackgroundImage: UIImage?{
+        didSet {
+            actionButton.setBackgroundImage(actionButtonBackgroundImage, for: .normal)
+        }
+    }
+    
     /// 初始化
     init() {
         super.init(frame: CGRect.zero)

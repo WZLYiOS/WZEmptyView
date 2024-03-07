@@ -5,57 +5,59 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.000337">
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.000408">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: version_get_podspec" time="0.000635">
+      <testcase classname="fastlane.lanes" name="01: version_get_podspec" time="0.000719">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: pod_lib_lint" time="9.440445">
+      <testcase classname="fastlane.lanes" name="02: pod_lib_lint" time="14.845767">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: version_bump_podspec" time="0.001076">
+      <testcase classname="fastlane.lanes" name="03: version_bump_podspec" time="0.001161">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: git_add" time="0.015978">
+      <testcase classname="fastlane.lanes" name="04: git_add" time="0.025183">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.033172">
+      <testcase classname="fastlane.lanes" name="05: git_commit" time="0.040326">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="1.749745">
+      <testcase classname="fastlane.lanes" name="06: push_to_git_remote" time="4.487813">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.013594">
+      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.024306">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: add_git_tag" time="0.02238">
+      <testcase classname="fastlane.lanes" name="08: add_git_tag" time="0.03095">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: push_git_tags" time="1.649481">
+      <testcase classname="fastlane.lanes" name="09: push_git_tags" time="3.926003">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: pod_push" time="12.740418">
+      <testcase classname="fastlane.lanes" name="10: pod_push" time="74.636247">
+        
+          <failure message="/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:76:in `block (2 levels) in parsing_binding'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/commands_generator.rb:110:in `block (2 levels) in run'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/commands_generator.rb:354:in `run'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/commands_generator.rb:43:in `start'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/fastlane/lib/fastlane/cli_tools_distributor.rb:123:in `take_off'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/gems/fastlane-2.212.1/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/bin/fastlane:23:in `load'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/bin/ruby_executable_hooks:24:in `eval'&#10;/Users/qiuqixiang/.rvm/gems/ruby-2.7.0/bin/ruby_executable_hooks:24:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod trunk push 'WZEmptyView.podspec' --allow-warnings' was 1 instead of 0.&#10;Updating spec repo `trunk`&#10;[!] CDN: trunk URL couldn't be downloaded: https://cdn.cocoapods.org/deprecated_podspecs.txt Response: SSL connect error&#10;" />
         
       </testcase>
     
